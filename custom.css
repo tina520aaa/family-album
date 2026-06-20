@@ -3,3 +3,10 @@ hi[
   font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
   text-align: center;
 }
+body {
+  background-color: #fef9e7;
+}
+.album-list .album-thumb:hover,
+.media-list .media-thumb:hover {
+  transform: scale(1.05);
+}
