@@ -1,11 +1,25 @@
-hi[
-  font-size: 36px;
-  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
-  text-align: center;
-}
+/* 页面整体背景 */
 body {
   background-color: #fef9e7;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
 }
+
+/* 标题 */
+h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* 照片卡片 */
+.album-list .album-thumb,
+.media-list .media-thumb {
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+/* 鼠标悬停时照片放大一点 */
 .album-list .album-thumb:hover,
 .media-list .media-thumb:hover {
   transform: scale(1.05);
